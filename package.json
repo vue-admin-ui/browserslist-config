@@ -1,20 +1,24 @@
 {
   "name": "@vue-admin-ui/browserslist-config",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A Browserslist shareable config.",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vue-admin-ui/browserslist-config.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Dmytro Cisar <dmytro.cisar@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vue-admin-ui/browserslist-config/issues"
   },
-  "homepage": "https://github.com/vue-admin-ui/browserslist-config#readme"
+  "homepage": "https://github.com/vue-admin-ui/browserslist-config#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  }
 }
