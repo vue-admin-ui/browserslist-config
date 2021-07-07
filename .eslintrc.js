@@ -5,6 +5,7 @@ module.exports = {
   },
   rules: {
     quotes: ['error', 'single', { avoidEscape: true }],
+    'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
     'comma-dangle': [
       'error',
       {
